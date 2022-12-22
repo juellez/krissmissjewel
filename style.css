@@ -10,6 +10,7 @@ Version: 0.2.2
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
 /*@import url("https://fonts.googleapis.com/css?family=Lora");*/
 /*@import url('https://fonts.googleapis.com/css?family=Radley&display=swap');*/
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
 @import url('https://fonts.googleapis.com/css?family=Alice&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -137,10 +138,11 @@ body.page-template-page-fullsingle-split {
     position: relative;
     width: 60%;
     height: 100vh;
-    background-image: url("./images/E8F1F377-6F96-485D-B91C-2014AE22F65C.jpeg");
-    background-position: center center;
+/*    background-image: url("./images/E8F1F377-6F96-485D-B91C-2014AE22F65C.jpeg");*/
+    background-image: url("./images/KrisJewel2022River.jpg");
+    background-position: center bottom;
     background-size: cover; }
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
       .fs-split .split-image {
         height: 80vh;
         width: 100%; } }
@@ -194,6 +196,28 @@ body.page-template-page-fullsingle-split {
   .split-intro ol {
     list-style: lower-roman;
   }
+
+  .fs-split .split-image .split-content-vertically-center {
+    padding: 80px 80px 20px 80px;
+    margin-top: auto;
+    margin-bottom: auto; }
+    @media (max-width: 1200px) {
+      .fs-split .split-image .split-content-vertically-center {
+        padding: 60px 60px 20px 60px; } }
+    @media (max-width: 800px) {
+      .fs-split .split-image .split-content-vertically-center {
+        padding: 40px; } }
+  .split-image .split-intro p {
+    font-size: 5vh;
+    letter-spacing: -0.5px;
+    font-family: Sacramento, cursive;
+  }
+  .split-image .split-intro .tagline {
+    font-size: 7vh;
+    line-height: 7vh;
+    letter-spacing: -3px; }
+
+
 
 .split-bio {
   padding: 40px 0 40px 0;
@@ -295,11 +319,16 @@ body.page-template-page-fullsingle-split {
 .split-lists.cv { display: none; margin-top: 80px; }
 
 .split-credit {
-  opacity: 0.8; }
+  opacity: 0.8; 
+  border-top: solid 1px #ffffff80;
+    padding-top: 20px;
+    margin-top: 20px;
+  font-weight: lighter;
+  font-family: 'Montserrat'; }
   .split-credit p {
     font-size: 13px;
     margin-bottom: 12px;
-    line-height: 14px; }
+    line-height: 16px; }
     .split-credit.small p { font-size: 11px; }
     .split-credit p a, .split-lists.cv a, .split-intro a {
       color: #69f7f3; }
