@@ -56,6 +56,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+
+a.button {
+      background: #f78a74;
+    background-color: #f78a74;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 12px 0;
+    margin-top: 0;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0px 16px 0 rgb(0 0 0 / 5%);
+    -o-transition: .15s;
+    -ms-transition: .15s;
+    -moz-transition: .15s;
+    -webkit-transition: .15s;
+    transition: .15s;
+    color: #ffffff;
+    padding: 13px 21px 13px 24px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
