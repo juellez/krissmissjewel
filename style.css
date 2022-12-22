@@ -214,13 +214,12 @@ body.page-template-page-fullsingle-split {
       font-family: 'Alice', serif;
       font-size: 2em;
       line-height: 1em;
-      text-transform: lowercase;
       margin: 2em 0 0 0;
   }
   .split-content .split-intro p {
     font-family: Montserrat, sans-serif;
     line-height: 115%;
-    margin: 1em 0 0 0;
+    margin: 0 0 1em 0;
   }
   .split-content p.signature {
     font-family: Sacramento, cursive;
