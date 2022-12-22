@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9QZJ6TBG9S"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-9QZJ6TBG9S');
+	</script>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+	
+	<!--
+
+ _          _   _       
+| |        | | | |      
+| |     _  | | | |  __  
+|/ \   |/  |/  |/  /  \_
+|   |_/|__/|__/|__/\__/o
+                        
+                        
+    _                      o                                                         _              
+o  | |                     /                               |  o                     | |    o        
+   | |          __           ,_    _     ,_    _   __,   __|      _  _    __,   _|_ | |        ,    
+|  |/    |   | /  \_|   |   /  |  |/    /  |  |/  /  |  /  |  |  / |/ |  /  |    |  |/ \   |  / \_  
+|_/|__/   \_/|/\__/  \_/|_/    |_/|__/     |_/|__/\_/|_/\_/|_/|_/  |  |_/\_/|/   |_/|   |_/|_/ \/o  
+   |\       /|                                                             /|                    /  
+   |/       \|                                                             \|                       
+                   _                  _           _          _                                 
+                  | |                | |    |    | |        | |       o                 |      
+         _     ,  | |     __         | |  __|    | |   _    | |  ,_       _   _  _    __|   ,  
+|  |  |_|/    / \_|/ \   /  \_|   |  |/  /  |    |/ \_|/    |/  /  |  |  |/  / |/ |  /  |  / \_
+ \/ \/  |__/   \/ |   |_/\__/  \_/|_/|__/\_/|_/   \_/ |__/  |__/   |_/|_/|__/  |  |_/\_/|_/ \/o
+                                                            |\                                 
+                                                            |/ 
+    -->
+
+	<!-- SEO -->
+	<title>Jewel Mlnarik</title>
+	<meta name="description" content="Kris and Miss Jewel wish you a Merry Christmas and happy soltice holidays." />
+	<meta name="robots" content="index, follow" />
+	<meta name="referrer" content="always" />
+
+	<!-- Social & Open Graph -->
+    <meta property="og:type" content="website" />
+	<meta property="og:title" content="Kris 'n Miss Jewel" />
+	<meta property="og:description" content="Kris and Miss Jewel wish you a Merry Christmas and happy soltice holidays." />
+	<!-- <meta property="og:image" content="https://jewel.mlnarik.com/images/social.jpg"> -->
+	<meta property="og:url" content="http://krismissjewel.us" />
+	<meta name="twitter:title" content="Kris 'n Miss Jewel" >
+	<meta name="twitter:description" content="Kris and Miss Jewel wish you a Merry Christmas and happy soltice holidays." />
+	<!-- <meta name="twitter:image" content="https://jewel.mlnarik.com/images/social.jpg" /> -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@juellez" />
+	<meta name="twitter:creator" content="@juellez" />
+
+
+	<!-- Styles -->
+	<!-- <link rel='stylesheet' href='assets/css/split.min.css?v=6' type='text/css' media='screen' /> -->
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+</head>
+
+<body id="fullsingle" class="page-template-page-fullsingle-split">
+
+<div class="fs-split">
+
+	<!-- Image Side -->
+	<div class="split-image">
+		
+	</div>
+
+	<!-- Content Side -->
+	<div class="split-content">
+
+		<div class="split-content-vertically-center">
+		
+			<div class="split-intro">
+				<h1>Merry Christmas</h1>
+				<p>stuff and links</p>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+function ready(callback){
+    // in case the document is already rendered
+    if (document.readyState!='loading') callback();
+    // modern browsers
+    else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+    // IE <= 8
+    else document.attachEvent('onreadystatechange', function(){
+        if (document.readyState=='complete') callback();
+    });
+}
+
+ready(function(){
+	var classname = document.getElementsByClassName("scroll");
+	for (var i = 0; i < classname.length; i++) {
+	    classname[i].addEventListener('click', function(e){
+		    e.preventDefault(); // Cancel the native event
+		    e.stopPropagation();// Don't bubble/capture the event
+
+		    var sectionName = this.getAttribute("href").substring(1);
+			var section = document.getElementById(sectionName);
+			section.style.display = "block";
+			section.scrollIntoView({behavior: "smooth"});
+	    }, false);
+	}
+});
+
+</script>
+
+</body>
+</html>
