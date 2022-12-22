@@ -32,6 +32,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 sup { vertical-align: super; line-height: 100%; font-size: 50%; text-transform: uppercase; font-family: Montserrat; font-weight: lighter; }
+sub { vertical-align: sub; line-height: 100%; font-size: 75%; }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -111,8 +112,8 @@ html {
 body.page-template-page-fullsingle-split {
   background-color: #0f2129;
   font-family: 'Alice', serif;
-  font-size: 18px;
-  line-height: 33px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
   letter-spacing: -0.2px;
   color: #b8d0cc;
   -webkit-animation: fadein 2s;
@@ -129,7 +130,7 @@ body.page-template-page-fullsingle-split {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex; }
-  @media (max-width: 800px) {
+  @media (max-width: 820px) {
     .fs-split {
       height: auto;
       -webkit-flex-wrap: wrap; 
@@ -138,11 +139,12 @@ body.page-template-page-fullsingle-split {
     position: relative;
     width: 60%;
     height: 100vh;
+    min-height: 620px;
 /*    background-image: url("./images/E8F1F377-6F96-485D-B91C-2014AE22F65C.jpeg");*/
     background-image: url("./images/KrisJewel2022River.jpg");
     background-position: center bottom;
     background-size: cover; }
-    @media (max-width: 800px) {
+    @media (max-width: 820px) {
       .fs-split .split-image {
         height: 80vh;
         width: 100%; } }
@@ -159,21 +161,22 @@ body.page-template-page-fullsingle-split {
     -webkit-justify-content: center;
             justify-content: center;
     overflow: auto; }
-    @media (max-width: 800px) {
+    @media (max-width: 820px) {
       .fs-split .split-content {
         width: 100%;
         height: auto; } }
     .fs-split .split-content .split-content-vertically-center {
       padding: 80px 80px 20px 80px;
-      max-width: 800px;
+      max-width: 820px;
       margin-top: auto;
       margin-bottom: auto; }
       @media (max-width: 1200px) {
         .fs-split .split-content .split-content-vertically-center {
           padding: 60px 60px 20px 60px; } }
-      @media (max-width: 800px) {
+      @media (max-width: 820px) {
         .fs-split .split-content .split-content-vertically-center {
-          padding: 40px; } }
+          padding: 40px; 
+          max-width: 400px;} }
 
 .split-intro .tagline {
   font-size: 60px;
@@ -204,18 +207,54 @@ body.page-template-page-fullsingle-split {
     @media (max-width: 1200px) {
       .fs-split .split-image .split-content-vertically-center {
         padding: 60px 60px 20px 60px; } }
-    @media (max-width: 800px) {
+    @media (max-width: 820px) {
       .fs-split .split-image .split-content-vertically-center {
         padding: 40px; } }
+  .split-content .split-intro h2 {
+      font-family: 'Alice', serif;
+      font-size: 2em;
+      line-height: 1em;
+      text-transform: lowercase;
+      margin: 2em 0 0 0;
+  }
+  .split-content .split-intro p {
+    font-family: Montserrat, sans-serif;
+    line-height: 115%;
+    margin: 1em 0 0 0;
+  }
+  .split-content p.signature {
+    font-family: Sacramento, cursive;
+    text-align: right;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
   .split-image .split-intro p {
     font-size: 5vh;
     letter-spacing: -0.5px;
     font-family: Sacramento, cursive;
+    color: #0e3f56;
+  }
+  @media (max-width: 1200px) {
+    .split-image .split-intro p {
+      font-size: 4vh;       
+    }
+  }
+  @media (max-width: 1200px) {
+    .split-image .split-intro .tagline {
+      font-size: 8vh;
+      line-height: 8vh;
+      letter-spacing: -3px; 
+    }
+    .split-image .split-intro p {
+      font-size: 4vh;       
+    }
   }
   .split-image .split-intro .tagline {
     font-size: 7vh;
     line-height: 7vh;
-    letter-spacing: -3px; }
+    letter-spacing: -3px; 
+    color: #0e3f56;}
 
 
 
@@ -225,7 +264,7 @@ body.page-template-page-fullsingle-split {
   @media (max-width: 1200px) {
     .split-bio {
       padding: 30px 0; } }
-  @media (max-width: 800px) {
+  @media (max-width: 820px) {
     .split-bio {
       padding: 20px 0; } }
   .split-bio p {
