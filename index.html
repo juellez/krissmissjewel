@@ -40,21 +40,18 @@ o  | |                     /                               |  o                 
                                                             |/ 
     -->
 
-	<!-- SEO -->
 	<title>A KrisMiss Special</title>
 	<meta name="description" content="Kris and Miss Jewel wish you a Merry Christmas and happy soltice holidays." />
 	<meta name="robots" content="index, follow" />
 	<meta name="referrer" content="always" />
-
-	<!-- Social & Open Graph -->
     <meta property="og:type" content="website" />
 	<meta property="og:title" content="Kris 'n Miss Jewel" />
 	<meta property="og:description" content="Kris and Miss Jewel wish you a Merry Christmas and happy soltice holidays." />
-	<!-- <meta property="og:image" content="https://jewel.mlnarik.com/images/social.jpg"> -->
+	<meta property="og:image" content="https://jewel.mlnarik.com/images/preview1200-628-krismissjewel.jpg">
 	<meta property="og:url" content="http://krismissjewel.us" />
 	<meta name="twitter:title" content="Kris 'n Miss Jewel" >
 	<meta name="twitter:description" content="Kris and Miss Jewel wish you a Merry Christmas and happy soltice holidays." />
-	<!-- <meta name="twitter:image" content="https://jewel.mlnarik.com/images/social.jpg" /> -->
+	<meta property="twitter:image" content="https://jewel.mlnarik.com/images/preview900-450-krismissjewel.jpg">
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@juellez" />
 	<meta name="twitter:creator" content="@juellez" />
@@ -65,7 +62,6 @@ o  | |                     /                               |  o                 
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
 </head>
-
 <body id="fullsingle" class="page-template-page-fullsingle-split">
 
 <div class="fs-split">
@@ -143,41 +139,6 @@ o  | |                     /                               |  o                 
 	</div>
 
 </div>
-
-<script type="text/javascript">
-
-function ready(callback){
-    // in case the document is already rendered
-    if (document.readyState!='loading') callback();
-    // modern browsers
-    else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
-    // IE <= 8
-    else document.attachEvent('onreadystatechange', function(){
-        if (document.readyState=='complete') callback();
-    });
-}
-
-ready(function(){
-	var query = window.location.search.substring(1);
-	if(query){
-		// add the name somewhere
-	}
-
-	var classname = document.getElementsByClassName("scroll");
-	for (var i = 0; i < classname.length; i++) {
-	    classname[i].addEventListener('click', function(e){
-		    e.preventDefault(); // Cancel the native event
-		    e.stopPropagation();// Don't bubble/capture the event
-
-		    var sectionName = this.getAttribute("href").substring(1);
-			var section = document.getElementById(sectionName);
-			section.style.display = "block";
-			section.scrollIntoView({behavior: "smooth"});
-	    }, false);
-	}
-});
-
-</script>
 
 </body>
 </html>
